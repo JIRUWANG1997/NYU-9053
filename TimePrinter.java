@@ -2,6 +2,10 @@ package callbacks;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
+/***
+注意，这个程序中，Timer t = new Timer(100, listener);负责生成event并传给listener。
+TimePrinter这个类才是如何处理这个event的程序。
+*/
 
 
 
